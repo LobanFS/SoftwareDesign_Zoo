@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2c7b49-185e-4fb8-9708-46187f41e3aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zoo/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/animals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/abstract.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1760357427356</updated>
       <workItem from="1760357437328" duration="5634000" />
-      <workItem from="1760371619099" duration="850000" />
+      <workItem from="1760371619099" duration="4382000" />
     </task>
     <servers />
   </component>
