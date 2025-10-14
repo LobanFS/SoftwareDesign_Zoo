@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2c7b49-185e-4fb8-9708-46187f41e3aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zoo/animals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/abstract_types/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/abstract_types/animal_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/abstract_types/object_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/entities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/entities/animals/Herbos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/entities/animals/Predators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/entities/animals/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoo/entities/things/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/abstract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/animals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/abstract_types/global_interfaces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoo/things.py" beforeDir="false" afterPath="$PROJECT_DIR$/zoo/entities/things/things.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +69,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\SD_Zoo\pythonProject\zoo\entities\things" />
+      <recent name="C:\Users\User\Desktop\SD_Zoo\pythonProject\zoo\entities" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1760357427356</updated>
       <workItem from="1760357437328" duration="5634000" />
-      <workItem from="1760371619099" duration="4382000" />
+      <workItem from="1760371619099" duration="9592000" />
     </task>
     <servers />
   </component>
