@@ -1,6 +1,7 @@
 from src.abstract_types.object_types import Animal
+from src.abstract_types.global_interfaces import IRepository
 from typing import Dict
-class AnimalRepository:
+class AnimalRepository(IRepository):
     def __init__(self):
         self._repository: Dict[int, Animal] = {}
 
