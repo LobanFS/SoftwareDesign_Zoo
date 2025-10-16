@@ -1,4 +1,4 @@
-from zoo.abstract_types.animal_types import Predator
+from src.abstract_types.animal_types import Predator
 
 class Tiger(Predator):
     pass

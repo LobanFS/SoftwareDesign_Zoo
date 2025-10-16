@@ -1,5 +1,5 @@
 from abc import ABC
-from object_types import Animal
+from .object_types import Animal
 
 class Herbo(ABC, Animal):
     def __init__(self, food_amount, animal_id, kindness):

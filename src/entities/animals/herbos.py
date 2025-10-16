@@ -1,4 +1,4 @@
-from zoo.abstract_types.animal_types import Herbo
+from src.abstract_types.animal_types import Herbo
 
 class Monkey(Herbo):
     pass

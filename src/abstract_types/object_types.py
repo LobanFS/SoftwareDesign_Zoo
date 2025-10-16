@@ -1,11 +1,17 @@
 from abc import ABC
-from global_interfaces import IAlive, IInventory
+from .global_interfaces import IAlive, IInventory
 
-class Animal(ABC, IAlive):
-    def __init__(self, food_amount, animal_id):
+class Animal(ABC, IAlive, IInventory):
+    def __init__(self, food_amount, animal_id, number):
         self._food = food_amount
         self._id = animal_id
-
+        self._number = number
+    @property
+    def Number(self):
+        return self._number
+    @Number.setter
+    def Number(self, value):
+        self._number = value
     @property
     def Id(self):
         return self._id

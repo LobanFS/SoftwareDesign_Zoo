@@ -1,4 +1,4 @@
-from zoo.abstract_types.object_types import Thing
+from src.abstract_types.object_types import Thing
 
 class Table(Thing):
     pass
