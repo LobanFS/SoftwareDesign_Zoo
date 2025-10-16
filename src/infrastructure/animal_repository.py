@@ -12,6 +12,3 @@ class AnimalRepository:
 
     def remove(self, number: int) -> None:
         return self._repository.pop(number, None) is not None
-
-
-

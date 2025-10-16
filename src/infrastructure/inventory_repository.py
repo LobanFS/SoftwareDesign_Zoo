@@ -1,4 +1,3 @@
-from src.abstract_types.object_types import Animal
 from src.abstract_types.global_interfaces import IInventory
 from typing import Dict
 class InventoryRepository:
