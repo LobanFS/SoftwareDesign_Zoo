@@ -56,7 +56,7 @@ class ConsoleUI:
             self._commands[c.key] = c
 
     def _print_menu(self):
-        self._out("\n--- Московский зоопарк ---")
+        self._out("\n--- Зоопарк ---")
         for key in sorted(self._commands.keys(), key=lambda k: (k != "0", k)):
             c = self._commands[key]
             self._out(f"{c.key}) {c.label}")
@@ -109,7 +109,7 @@ class ConsoleUI:
         extra: dict[str, object] = {}
         for field in extra_fields:
             if field == "kindness":
-                extra[field] = self._ask_int("Доброта (0..10): ", min_value=0, max_value=10)
+                extra[field] = self._ask_int("Доброта (0...10): ", min_value=0, max_value=10)
             else:
                 extra[field] = self._ask_str(f"{field.capitalize()}: ")
         try:
@@ -129,7 +129,7 @@ class ConsoleUI:
             self._out("Нет зарегистрированных типов вещей.")
             return True
         kind = self._ask_choice("Тип вещи", kinds)
-        number = self._ask_int("Инв. номер: ", min_value=0)
+        number = self._ask_int("Номер: ", min_value=0)
         title = self._ask_str("Название: ") or "NoTitle"
         try:
             self.ops.add_item(kind, number=number, title=title)
@@ -148,8 +148,7 @@ class ConsoleUI:
             self._out("Животных пока нет.")
             return True
         for a in animals:
-            extra = f", kindness={getattr(a, 'kindness', '-')}"
-            self._out(f"{a.name} #{a.number} '{a.title}', food={a.food}{extra}")
+            self._out(f"{a.name} #{a.number} '{a.title}', food/day={a.food}")
         return True
 
     def _list_contact_animals(self) -> bool:

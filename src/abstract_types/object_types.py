@@ -1,4 +1,3 @@
-from abc import ABC
 from src.abstract_types.global_interfaces import IAlive, IInventory
 
 class Animal(IAlive, IInventory):

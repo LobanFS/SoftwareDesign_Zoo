@@ -6,17 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7f2c7b49-185e-4fb8-9708-46187f41e3aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstract_types/animal_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/animal_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstract_types/global_interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/global_interfaces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/abstract_types/object_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/object_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/di/container.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/di/container.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/factories/generic_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/factories/generic_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repositories/generic_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repositories/generic_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repositories/inventory_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repositories/inventory_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/factories/animal_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/factories/animal_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/vet_clinic.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/vet_clinic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/zoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/console_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/console_ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\SD_Zoo\pythonProject\src" />
       <recent name="C:\Users\User\Desktop\SD_Zoo\pythonProject\src\infrastructure\repositories" />
       <recent name="C:\Users\User\Desktop\SD_Zoo\pythonProject\zoo\entities\things" />
       <recent name="C:\Users\User\Desktop\SD_Zoo\pythonProject\zoo\entities" />
@@ -95,7 +90,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User\Desktop\SD_Zoo\pythonProject\src\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +125,7 @@
       <workItem from="1760371619099" duration="10247000" />
       <workItem from="1760443288240" duration="2929000" />
       <workItem from="1760572362148" duration="14135000" />
-      <workItem from="1760627897148" duration="13091000" />
+      <workItem from="1760627897148" duration="17647000" />
     </task>
     <servers />
   </component>
@@ -138,6 +133,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1760642021347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1760646986399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
