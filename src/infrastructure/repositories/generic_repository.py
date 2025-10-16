@@ -1,5 +1,6 @@
-from typing import Iterable
+from typing import List
 from src.abstract_types.global_interfaces import IInventory
+
 T = TypeVar("T", bound = IInventory)
 class GenericRepository:
     def __init__(self):
@@ -13,8 +14,5 @@ class GenericRepository:
     def remove(self, number: int) -> bool:
         return self._repository.pop(number, None) is not None
 
-    def all(self) -> Iterable[T]:
-        return self._repository.values()
-
-AnimalRepository = InMemoryRepository[Animal]
-InventoryRepository = InMemoryRepository[Thing | Animal]
+    def all(self) -> List[T]:
+        return list(self._repository.values())

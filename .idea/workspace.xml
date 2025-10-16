@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2c7b49-185e-4fb8-9708-46187f41e3aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/factories/thing_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/abstract_types/animal_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/animal_types.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/abstract_types/global_interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/global_interfaces.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/abstract_types/object_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/object_types.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/di/container.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/di/container.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/animal_repository.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infrastructure/factories/animal_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/factories/animal_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/factories/item_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/factories/item_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/inventory_repository.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/vet_clinic.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/vet_clinic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/factories/item_factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repositories/generic_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repositories/generic_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/operations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/zoo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +44,9 @@
     &quot;accountId&quot;: &quot;35a3fdfa-cb65-47ff-bc52-fd11e72e0e4b&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -56,19 +58,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\SD_Zoo\pythonProject\src\infrastructure\repositories" />
@@ -95,7 +97,8 @@
       <workItem from="1760357437328" duration="5634000" />
       <workItem from="1760371619099" duration="10247000" />
       <workItem from="1760443288240" duration="2929000" />
-      <workItem from="1760572362148" duration="13344000" />
+      <workItem from="1760572362148" duration="14135000" />
+      <workItem from="1760627897148" duration="4867000" />
     </task>
     <servers />
   </component>

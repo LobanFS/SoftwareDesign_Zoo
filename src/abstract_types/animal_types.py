@@ -2,8 +2,8 @@ from abc import ABC
 from .object_types import Animal
 
 class Herbo(ABC, Animal):
-    def __init__(self, food_amount, number, kindness):
-        super().__init__(food_amount = food_amount, number = number)
+    def __init__(self, *, food_amount, number, title, kindness):
+        super().__init__(food_amount = food_amount, number = number, title = title)
         self._kindness = max(0, min(10, kindness))
 
     @property

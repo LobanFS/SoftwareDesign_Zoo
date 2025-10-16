@@ -30,7 +30,7 @@ class IRepository(ABC, Generic[T]):
     def get(self, number:int) -> T:
         pass
     @abstractmethod
-    def all(self) -> Iterable[T]:
+    def all(self) -> List[T]:
         pass
 
 # Фабрика
