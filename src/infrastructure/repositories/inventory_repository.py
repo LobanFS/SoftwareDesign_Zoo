@@ -1,5 +1,5 @@
 from .generic_repository import GenericRepository
-from src.abstract_types.object_types import Animal, Thing
+from src.abstract_types.global_interfaces import IInventory
 
-class InventoryRepository(GenericRepository[Animal | Thing]):
+class InventoryRepository(GenericRepository[IInventory]):
     pass
