@@ -1,0 +1,20 @@
+from typing import Iterable
+from src.abstract_types.global_interfaces import IInventory
+T = TypeVar("T", bound = IInventory)
+class GenericRepository:
+    def __init__(self):
+        self._repository: Dict[int, T] = {}
+    def add(self, item: T) -> None:
+        self._repository[item.number] = item
+
+    def get(self, number: int) -> T:
+        return self._repository[number]
+
+    def remove(self, number: int) -> bool:
+        return self._repository.pop(number, None) is not None
+
+    def all(self) -> Iterable[T]:
+        return self._repository.values()
+
+AnimalRepository = InMemoryRepository[Animal]
+InventoryRepository = InMemoryRepository[Thing | Animal]

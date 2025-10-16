@@ -4,8 +4,8 @@ from src.entities.things.things import Computer
 from src.infrastructure.factories.animal_factory import AnimalFactory
 from src.services.zoo import Zoo
 from src.services.vet_clinic import VetClinic
-from src.infrastructure.animal_repository import AnimalRepository
-from src.infrastructure.inventory_repository import InventoryRepository
+from src.infrastructure.repositories.animal_repository import AnimalRepository
+from src.infrastructure.repositories.inventory_repository import InventoryRepository
 
 class Container:
     def __init__(self):

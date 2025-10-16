@@ -2,31 +2,39 @@ from abc import ABC
 from .global_interfaces import IAlive, IInventory
 
 class Animal(ABC, IAlive, IInventory):
-    def __init__(self, food_amount, number):
+    def __init__(self, *, food_amount: int, number: int):
         self._food = food_amount
         self._number = number
+
     @property
-    def number(self):
+    def number(self) -> int:
         return self._number
     @number.setter
-    def number(self, value):
+    def number(self, value: int) -> None:
         self._number = value
+
     @property
     def food(self) -> int:
         return self._food
     @food.setter
-    def food(self, value):
+    def food(self, value: int) -> None:
         self._food = value
+
     @property
-    def name(self):
+    def name(self) -> str:
         return self.__class__.__name__
 
 class Thing(ABC, IInventory):
     def __init__(self, number):
         self._number = number
+
     @property
-    def number(self):
+    def number(self) -> int:
         return self._number
     @number.setter
-    def number(self, value):
+    def number(self, value: int) -> None:
         self._number = value
+
+    @property
+    def name(self) -> str:
+        return self.__class__.__name__
