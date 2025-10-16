@@ -3,10 +3,10 @@ from abc import ABC, abstractmethod
 class IAlive(ABC):
     @property
     @abstractmethod
-    def Food(self):
+    def food(self):
         pass
 class IInventory(ABC):
     @property
     @abstractmethod
-    def Number(self):
+    def number(self):
         pass

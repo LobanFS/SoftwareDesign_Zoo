@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2c7b49-185e-4fb8-9708-46187f41e3aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/animal_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/inventory_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/vet_clinic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/zoo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/abstract_types/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/abstract_types/animal_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/animal_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/abstract_types/global_interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/global_interfaces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/abstract_types/object_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/object_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/entities/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/entities/animals/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/entities/animals/herbos.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/herbos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/entities/animals/predators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/predators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/entities/things/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/things/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoo/entities/things/things.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/things/things.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstract_types/animal_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/animal_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstract_types/global_interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/global_interfaces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstract_types/object_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_types/object_types.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <workItem from="1760357437328" duration="5634000" />
       <workItem from="1760371619099" duration="10247000" />
       <workItem from="1760443288240" duration="2929000" />
-      <workItem from="1760572362148" duration="1191000" />
+      <workItem from="1760572362148" duration="3708000" />
     </task>
     <servers />
   </component>

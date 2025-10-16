@@ -7,10 +7,10 @@ class Herbo(ABC, Animal):
         self._kindness = kindness
 
     @property
-    def Kindness_power(self) -> int:
+    def kindness_power(self) -> int:
         return self._kindness
-    @Kindness_power.setter
-    def Kindness_power(self, value):
+    @kindness_power.setter
+    def kindness_power(self, value):
         self._kindness = value
 
 class Predator(ABC, Animal):
